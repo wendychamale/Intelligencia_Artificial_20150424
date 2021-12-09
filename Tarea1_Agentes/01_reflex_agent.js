@@ -25,6 +25,7 @@ function test(states) {
 		}
 	}
 	else if (action_result == "RIGHT") {
+		states[0] = "B";
 	}
 	else if (action_result == "LEFT") {
 		states[0] = "A";
