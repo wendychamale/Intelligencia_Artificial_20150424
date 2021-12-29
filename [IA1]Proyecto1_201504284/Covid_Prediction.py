@@ -33,7 +33,7 @@ y_new = model.predict(x_new_transform)
 plt.plot(x_new, y_new, color='#8BC34A', linewidth=3)
 plt.grid()
 plt.xlim(x_new_min,x_new_max)
-plt.ylim(0,1000000)
+plt.ylim(0,900000)
 title = 'Degree = {}; RMSE = {}; R2 = {}'.format(nb_degree, round(rmse,2),
 round(r2,2))
 plt.title("Prediction of Infection Covid-19 in Guatemala - January 2022\n " + title,fontsize=10)
