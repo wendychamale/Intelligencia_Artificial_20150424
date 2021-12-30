@@ -15,9 +15,9 @@ plt.ylabel('PH')
 print("Clases")
 print(kmeans.predict(X))
 cadena=""
-for i , l in enumerate(kmeans.labels_):
-    print("Punto({0}) Clase: {1}".format(X[i],l))
-    cadena+="Punto({0}) Clase: {1}".format(X[i],l)+"   "
+for i , j in enumerate(kmeans.labels_):
+    print("Punto({0}) Clase: {1}".format(X[i],j))
+    cadena+="Punto({0}) Clase: {1}".format(X[i],j)+"   "
     
 plt.xlabel(cadena)
 plt.show()
